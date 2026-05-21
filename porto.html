@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Saya</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 33px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+
+    .card-content a {
+      text-decoration: none;
+      color: white;
+      font-size: 13px;
+      background: rgba(255,255,255,0.2);
+      padding: 6px 10px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .card-content a:hover {
+      background: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Portofolio Saya</h1>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="poster hut ri by agoy.jpg" alt="Project 1">
+      <div class="card-content">
+        <h2>Poster Sosial Media</h2>
+        <p>Ini Adalah sebuah poster media sosial yang saya buat, dalam rangka memperingati HUT RI yang ke-80</p>
+        <a href="https://www.instagram.com/p/DLAk3jTP3qH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Lihat</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="poster-pocari-sweat.jpg" alt="Project 2">
+      <div class="card-content">
+        <h2>Poster Produk Konvensional</h2>
+        <p>Ini adalah sebuah desain poster produk konvensional yang saya buat dengan tujuan berlatih dan menambah portofolio</p>
+        <a href="https://www.instagram.com/p/DL77fMHv3XW/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==">Lihat</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="product-manip-hydro-coco.jpg" alt="Project 3">
+      <div class="card-content">
+        <h2>Product Manipulation</h2>
+        <p>Ini adalah sebuah desain product manipulation yang saya buat dengan tujuan untuk berlatih dan menambah portofolio desain saya</p>
+        <a href="https://www.instagram.com/p/DLuQRNEhtX6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Lihat</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
